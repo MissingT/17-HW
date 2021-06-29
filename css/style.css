@@ -1,0 +1,99 @@
+.homePage {
+    background-image: linear-gradient(to bottom right, #292E49, black);
+    width: 1920px;
+    height: 1200px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*.backgroundGradient:after {
+    animation: grain 8s steps(10) infinite;
+    background-image: url(../images/paper_1.png);
+    content: "";
+    height: 300%;
+    left: -50%;
+    opacity: 0.4;
+    position: fixed;
+    top: -110%;
+    width: 300%;
+    mix-blend-mode: multiply;
+  }
+  
+  @keyframes grain {
+    0%, 100% { transform:translate(0, 0) }
+    10% { transform:translate(-5%, -10%) }
+    20% { transform:translate(-15%, 5%) }
+    30% { transform:translate(7%, -25%) }
+    40% { transform:translate(-5%, 25%) }
+    50% { transform:translate(-15%, 10%) }
+    60% { transform:translate(15%, 0%) }
+    70% { transform:translate(0%, 15%) }
+    80% { transform:translate(3%, 35%) }
+    90% { transform:translate(-10%, 10%) }
+  }*/
+
+  .homeButton {
+      color: white;
+      position: absolute;
+      top: 60px;
+      left: 200px;
+      opacity: 0.5;
+  }
+
+  .homeButton:hover {
+      opacity: 1;
+  }
+
+  .firstName {
+    font-family: termina,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 24pt;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .lastName {
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 18pt;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .workHome {
+    background-image: url(../images/Work_Default_Home.png);
+    position: absolute;
+    width: 1920px;
+    height: 697px;
+    opacity: 0.5;
+  }
+
+  .workHome:hover {
+    background-image: url(../images/Work_Hover_Home.png);
+    opacity: 1;
+}
+
+.aboutHome {
+  position: absolute;
+  top: 697px;
+  background-image: url(../images/About_Default_Home.png);
+  width: 1920px;
+  height: 297px;
+  opacity: 0.5;
+}
+
+.aboutHome:hover {
+  background-image: url(../images/About_Hover_Home.png);
+  opacity: 1;
+}
